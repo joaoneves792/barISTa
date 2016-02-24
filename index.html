@@ -7,13 +7,16 @@
 
 <style type="text/css">
 	body{
-		//background: #1d2d44; /* Old browsers */
-		background: -moz-linear-gradient(top, #ffffff 0%, #555555 100%); /* FF3.6+ */
-		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#555555)); /* Chrome,Safari4+ */
-		//background: -webkit-linear-gradient(top, #35537a 0%,#1d2d44 100%); /* Chrome10+,Safari5.1+ */
-		//background: -o-linear-gradient(top, #35537a 0%,#1d2d44 100%); /* Opera11.10+ */
-		//background: -ms-linear-gradient(top, #35537a 0%,#1d2d44 100%); /* IE10+ */
-		//background: linear-gradient(top, #35537a 0%,#1d2d44 100%); /* W3C */
+		background: #ffffff; /* Old browsers */
+		background: -moz-linear-gradient(top, #ffffff 0%, #666666 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#666666)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top, #ffffff 0%,#666666 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top, #ffffff 0%,#666666 100%); /* Opera11.10+ */
+		background: -ms-linear-gradient(top, #ffffff 0%,#666666 100%); /* IE10+ */
+		background: linear-gradient(top, #ffffff 0%,#666666 100%); /* W3C */
+
+		font-family:calibri; 
+		text-align: center;
 	}
 </style>
 
@@ -26,28 +29,50 @@
 </head>
 
 
-<body style="font-family:calibri; text-align: center;" >
 
 
 <h1 style="color: green">Interfaces Pessoa M&aacute;quina 2015-16</h1>
 <h2>Grupo 30 - Turno IPM201113L06</h2>
 
+<script type="text/javascript">
+  function selectDeveloper(id) {    
+      	  var photo = document.getElementById("photo" + id);
+	  photo.width=200;
+      	  var name = document.getElementById("name" + id);
+	  name.style.color = '#336600';
+	  name.style.fontSize = '200%';
+      	  var num = document.getElementById("num" + id);
+	  num.style.color = '#336600';
+	  num.style.fontSize = '200%';
+  }
+  function unselectDeveloper(id) {    
+      	  var photo = document.getElementById("photo" + id);
+	  photo.width=98;
+      	  var name = document.getElementById("name" + id);
+	  name.style.color = '#000000';
+	  name.style.fontSize = '100%';
+      	  var num = document.getElementById("num" + id);
+	  num.style.color = '#000000';
+	  num.style.fontSize = '100%';
+  }
+
+</script>
 
 <table align=center>
   <tr>
-    <td width="33%"><b>João Neves</b></td>
-    <td width="33%"><b>João Henriques</b></td> 
-    <td width="33%"><b>Pedro Cunha</b></td>
+    <td width="33%"><span id="nameJoaoN"><b>João Neves</b></span></td>
+    <td width="33%"><span id="nameJoaoH"><b>João Henriques</b></span></td> 
+    <td width="33%"><span id="namePedroC"><b>Pedro Cunha</b></span></td>
   </tr>
   <tr>
-    <td>70171</td>
-    <td>81633</td> 
-    <td>82343</td>
+    <td><span id="numJoaoN">70171</span></td>
+    <td><span id="numJoaoH">81633</span></td> 
+    <td><span id="numPedroC">82343</span></td>
   </tr>
   <tr>
-    <td><img id="rgb" src = "11162091.jpeg" width="98" onmouseover="this.width=200;" onmouseout="this.width=98;" ></td>
-    <td><img id="rgb" src = "retrievePersonalPhoto.do.png" width="98" onmouseover="this.width=200;" onmouseout="this.width=98;"></td> 
-    <td><img id="rgb" src = "ist423293.png" width="98" onmouseover="this.width=200;" onmouseout="this.width=98;"></td>
+    <td><img id="photoJoaoN" src = "11162091.jpeg" width="98" onmouseover=selectDeveloper("JoaoN") onmouseout=unselectDeveloper("JoaoN") ></td>
+    <td><img id="photoJoaoH" src = "retrievePersonalPhoto.do.png" width="98" onmouseover=selectDeveloper("JoaoH") onmouseout=unselectDeveloper("JoaoH")></td> 
+    <td><img id="photoPedroC" src = "ist423293.png" width="98" onmouseover=selectDeveloper("PedroC") onmouseout=unselectDeveloper("PedroC")></td>
   </tr>
 </table>
 
