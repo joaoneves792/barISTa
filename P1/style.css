@@ -1,6 +1,9 @@
 body{
-	background: #000000; /* Old browsers */
-	
+	background: #000000; 
+	/*background-image: url("logo.png");
+	background-repeat: no-repeat;
+	background-position: left;*/
+
 	font-family:calibri; 
 	text-align: center;
 	color: white;
@@ -64,6 +67,10 @@ div.bill{
 	right: 0px;
 
 }
+#billExtended{
+	height: 400px;
+}
+
 
 div.bigMenu{
 	background: rgba(023, 147, 209, 1);

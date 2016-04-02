@@ -13,7 +13,13 @@ function pressVote(){
 }
 
 function showBill(){
+	hide("billCollapsed");
+	show("billExtended");
+}
 
+function hideBill(){
+	hide("billExtended");
+	show("billCollapsed");
 }
 
 function pressPrizes(){
