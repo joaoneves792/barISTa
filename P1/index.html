@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="UTF-8">
+	<head>
+		<title>barISTa - grupo 30</title>
+
+		<!-- Load external files -->
+		<link rel="stylesheet" href="style.css">
+		<script src="index.js"></script>
+
+	</head>
+	<body>
+
+		<table align=center>
+			<tr height="870px">
+				<td width="960px">
+					<span id="leftSide">
+						<!-- insert Main Menu here -->
+					     	<span id="homeButtons">
+							<div id="orderButton" class="button" onclick="pressOrder()" style="width: 100px; height: 50px;"><b>Pedir</b></div><br>
+							<div id="prizesButton" class="button" onclick="pressPrizes()" style="width: 100px; height: 50px;"><b>Roda da<br>Sorte</b></div>
+						</span>	
+					</span>
+				</td>
+				<td width="960px">
+					<span id="rightSide">
+						<table align=center>
+							<tr height="430px">
+								<td width="960px">
+									<span id="topSide">
+										<!-- Insert Jukebox here --> 
+										<div id="jukeboxCollapsed" class="jukebox">
+											<table align=left>
+												<tr>
+													<td width="350px">
+														<b>Musica: </b>Surfing with the alien<br>
+														<b>Autor:  </b>Joe Satriani
+													</td>
+													<td width="50px">
+														<!-- insert Votar button here -->
+														<div id="voteButton" class="button" onclick="pressVote()">Votar</div>
+													</td>
+												</tr>
+											</table>
+										</div> 
+									</span>
+								</td>
+							</tr>
+							<tr height="430px">
+								<td width="960px">
+									<span id="bottomSide">
+										<!-- Insert Bill here -->
+										<div id="billCollapsed" class="bill" onclick="showBill()">
+											<b>Conta</b><img src="arrow_up.png" width="30" style="position: absolute; right: 10px; top: 5px;"><br><hr>
+											<b>Total:&nbsp;</b>5.00&euro;<br>
+											<b>Creditos:&nbsp;</b>2
+										</div>
+									</span>
+								</td>
+							</tr>
+						</table>
+					</span>
+				</td> 
+  			</tr>
+		</table>
+
+	</body>
+</html>

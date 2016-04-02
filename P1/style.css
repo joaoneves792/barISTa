@@ -1,0 +1,66 @@
+body{
+	background: #000000; /* Old browsers */
+	
+	font-family:calibri; 
+	text-align: center;
+	color: white;
+}
+div.section{
+	background: rgba(000, 000, 255, 1);
+	padding: 15px;
+	border: 15px solid rgba(000, 000, 255, 1);
+	background-clip: padding-box;
+	border-radius: 25px;
+	margin: 10px;
+	text-align: left;
+	width: 400px;
+}
+table{
+	/*border: 1px solid white;*/
+	table-layout:fixed;
+}
+
+div.button{
+	background: rgba(000, 117, 179, 1);
+	border: 15px solid rgba(000, 117, 179, 1);
+	border-radius: 15px;
+	text-align: center;
+}
+
+#homeButtons{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
+div.jukebox{
+	background: rgba(023, 147, 209, 1);
+	padding: 15px;
+	border: 15px solid rgba(023, 147, 209, 1);
+	background-clip: padding-box;
+	border-radius: 25px;
+	margin: 10px;
+	text-align: left;
+	width: 400px;
+
+	position: absolute;
+	top: 0px;
+	right: 0px;
+
+}
+
+div.bill{
+	background: rgba(023, 147, 209, 1);
+	padding: 15px;
+	border: 15px solid rgba(023, 147, 209, 1);
+	background-clip: padding-box;
+	border-radius: 25px;
+	margin: 10px;
+	text-align: left;
+	width: 400px;
+
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+
+}
