@@ -23,19 +23,15 @@ function hideBill(){
 }
 
 function pressPrizes(){
-	show("jukeboxCollapsed");
+
 }
 
 function pressOrder(){
-	hide("orderButton");
-	hide("prizesButton");
+	hide("homeButtons");
 	show("orderMenu");
 }
 
 function closeOrder(){
-	show("orderButton");
-	show("prizesButton");
+	show("homeButtons");
 	hide("orderMenu");
 }
-
-
