@@ -64,3 +64,38 @@ div.bill{
 	right: 0px;
 
 }
+
+div.bigMenu{
+	background: rgba(023, 147, 209, 1);
+	padding: 15px;
+	border: 15px solid rgba(023, 147, 209, 1);
+	background-clip: padding-box;
+	border-radius: 25px;
+	margin: 10px;
+	text-align: left;
+	width: 960px;
+	height: 800px; 
+
+	position: absolute;
+	top: 5px;
+	left: 5px;
+}
+#mainMenuButton{
+	width: 100px;
+	height: 50px; 
+}
+
+div.orderDetails{
+	background: rgba(043, 167, 229, 1);
+	padding: 15px;
+	border: 15px solid rgba(043, 167, 229, 1);
+	background-clip: padding-box;
+	border-radius: 25px;
+	margin: 10px;
+	text-align: left;
+	width: 200px;
+
+	/*position: absolute;
+	top: 0px;
+	right: 0px;*/
+}

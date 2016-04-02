@@ -15,11 +15,77 @@
 			<tr height="870px">
 				<td width="960px">
 					<span id="leftSide">
-						<!-- insert Main Menu here -->
 					     	<span id="homeButtons">
+							<!-- Insert Home buttons here -->
 							<div id="orderButton" class="button" onclick="pressOrder()" style="width: 100px; height: 50px;"><b>Pedir</b></div><br>
 							<div id="prizesButton" class="button" onclick="pressPrizes()" style="width: 100px; height: 50px;"><b>Roda da<br>Sorte</b></div>
-						</span>	
+						</span>
+						<span id="orderMenu" style="display: none;">
+							<div id="bigMenuDiv" class="bigMenu">
+								<!-- insert Main Menu here -->
+								<table align=left>
+									<tr>
+										<td width="420px">
+											<!-- Insert Search Box here -->
+											<input type="text" name="menuSearch" size=60 value="Procurar"><br>
+											<table align=left>
+												<!-- Insert order menu buttons here -->
+												<tr height="60px">
+													<td width="100px"><div id="mainMenuButton" class="button" onclick="closeOrder()" ><b>Imperial</b></div></td>
+													<td width="100px"><div id="mainMenuButton" class="button" onclick="pressOrder()" ><b>Cerveja</b></div></td>
+													<td width="100px"><div id="mainMenuButton" class="button" onclick="pressOrder()" ><b>Gin</b></div></td>
+													<td width="100px"><div id="mainMenuButton" class="button" onclick="pressOrder()" ><b>Shots</b></div></td>
+												</tr>
+												<tr height="60px">
+													<td width="100px"><div id="mainMenuButton" class="button" onclick="pressOrder()" ><b>Bebidas<br>espirituosas</b></div></td>
+													<td width="100px"><div id="mainMenuButton" class="button" onclick="pressOrder()" ><b>Vinhos</b></div></td>
+													<td width="100px"><div id="mainMenuButton" class="button" onclick="pressOrder()" ><b>Refrigerantes</b></div></td>
+													<td width="100px"><div id="mainMenuButton" class="button" onclick="pressOrder()" ><b>Outras<br>bebidas</b></div></td>
+												</tr>
+												<tr height="200px">
+													<td width="100px"><div id="mainMenuButton" class="button" onclick="pressOrder()" ><b>Comida</b></div></td>
+													<td width="100px"></td>
+													<td width="100px"></td>
+													<td width="100px"></td>
+												</tr>
+												<tr height="60px">
+													<td width="100px"><div id="mainMenuBut" class="button" style="position: absolute;" onclick="pressCostumizeDrink()"><b>Personalizar bebida</b></div></td>
+													<td width="100px"></td>
+													<td width="100px"></td>
+													<td width="100px"></td>
+												</tr>
+											</table>
+										</td>
+										<td width="200px">
+											<table align=right style="position: absolute; top: 0px; right:0px;">
+												<tr height="40px">
+													<td>
+														<div class="button" onclick="closeOrder()" style="width: 60px; position: absolute; right: 10px; top: 0px;"><b>Voltar</b></div>
+													</td>
+												</tr>
+												<tr>
+													<td>
+													<!-- Insert order details here -->
+													<div id="orderDetailsDiv" class="orderDetails">
+														<b>Pedido pendente:</b><hr>
+														Imperial 1.00&euro;
+														<br>
+														<br>
+														<br>
+														<br>
+														<br>
+														<br>
+														<div id="confirmOrder" class="button" onclick="closeOrder()"><b>Confirmar</b></div>
+													</div>
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+								</table>
+							</div>
+						</span>
+
 					</span>
 				</td>
 				<td width="960px">
