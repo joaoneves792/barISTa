@@ -100,7 +100,6 @@ table.choiceMenu{
 	width: 530px;
        	/*height:400px;*/
        	overflow:auto;
-	border: 1px solid black;
 }
 #choiceMenuTable tr{	height: 10px; }
 #choiceMenuTable tr:nth-child(even) {background-color: #0075b3}
@@ -109,6 +108,22 @@ table.choiceMenu{
 #choiceMenuTable td.price{ width: 50px; }
 #choiceMenuTable td.add{ width: 30px; }
 #choiceMenuTable td.remove{ width: 30px; }
+#choiceMenuTable{ width: 100%; }
+#choiceMenuTable thead, choiceMenuTable tbody{
+	float: left;
+	width: 100%;
+}
+#choiceMenuTable tbody{
+	overflow: auto;
+	height: 750px;
+}
+#choiceMenuTable tr{
+	width: 100%;
+	text-align: left;
+}
+#choiceMenuTable th, #choiceMenuTable td{ width: 33%; }
+
+
 
 #pendingOrderTable{
 	position: absolute;
