@@ -29,6 +29,7 @@ function pressPrizes(){
 }
 
 function pressOrder(){
+	updatePendingOrders();
 	hide("homeButtons");
 	show("orderMenu");
 }

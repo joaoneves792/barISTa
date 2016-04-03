@@ -76,6 +76,7 @@ div.orderDetails{
 	border: 15px solid rgba(043, 167, 229, 1);
 	text-align: left;
 	width: 200px;
+	height: 250px;
 }
 
 table.choiceMenu{
@@ -91,3 +92,10 @@ table.choiceMenu{
 #choiceMenuTable td.price{ width: 50px; }
 #choiceMenuTable td.add{ width: 30px; }
 #choiceMenuTable td.remove{ width: 30px; }
+
+#pendingOrderTable{
+	position: absolute;
+	top: 110px;
+}
+#pendingOrderTable tr{	height: 10px; }
+#pendingOrderTable tr:nth-child(even) {background-color: #0075b3}
