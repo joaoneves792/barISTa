@@ -14,7 +14,7 @@ function placePendingOrder(orderName, orderCredits, orderPrice){
 	var newOrder = {
 		name:orderName,
 		credits:orderCredits,
-		price:orderCredits,
+		price:orderPrice,
 		amount:1
 	};
 	pendingOrder.push(newOrder);
