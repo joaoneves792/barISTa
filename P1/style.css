@@ -57,7 +57,24 @@ div.bill{
 #billExtended{
 	height: 400px;
 }
-
+#billTable{
+       	width: 100%;
+}
+#billTable thead, tbody{
+	float: left;
+	width: 100%;
+}
+#billTable tbody{
+	overflow: auto;
+	height: 250px;
+}
+#billTable tr{
+	width: 100%;
+	text-align: left;
+}
+#billTable th, #billTable td{
+	width: 33%;
+}
 
 div.bigMenu{
 	width: 960px;

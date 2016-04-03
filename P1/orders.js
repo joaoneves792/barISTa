@@ -74,7 +74,7 @@ function updateBill(){
 	var totalPrice = 0;
 
 	//Update the Expanded bill
-	var table="<tr><td width=\"200px\"><b>Nome</b></td><td width=\"100px\"><b>Créditos</b></td><td width=\"50px\"><b>Quantidade<b></td><td width=\"50px\"><b>Preço</b></td></tr>";
+	var table="<thead><tr><th width=\"200px\">Nome</th><th width=\"100px\">Créditos</th><th width=\"50px\">Quantidade</th><th width=\"50px\">Preço</th></tr></thead><tbody>";
 	for (i = 0; i <placedOrders.length; i++) {
 		var name = placedOrders[i].name;
 		var credits = placedOrders[i].credits;
@@ -88,10 +88,11 @@ function updateBill(){
 			"</td><td style=\"text-align:right\">" + (price*amount).toFixed(2) + "&euro;" +
 			"</td></tr>";
 	}
+	table += "</tbody>";
 	document.getElementById("billTable").innerHTML = table;
 
 	//Update the expanded bill total section
-	table="<tr><td width=\"160px\"><hr><b>Total:</b></td><td width=\"180px\"><hr>" + currentCredits + "</td><td width=\"50px\" style=\"text-align:right\"><hr>" + totalPrice.toFixed(2) + "&euro;" + "</td></tr>";
+	table="<tr><td width=\"110px\"><hr><b>Total:</b></td><td width=\"180px\"><hr>" + currentCredits + "</td><td width=\"50px\" style=\"text-align:right\"><hr>" + totalPrice.toFixed(2) + "&euro;" + "</td></tr>";
 	table += "<tr><td></td><td></td><td><div id=\"payBill\" class=\"button\">Pagar</div></td></tr>";
 	document.getElementById("billTotalTable").innerHTML = table;
 
