@@ -1,3 +1,5 @@
+var currentMainMenuScreen = "mainMenu";
+
 function hide(id){
 	var element = document.getElementById(id);
 	element.style.display = 'none';
@@ -31,7 +33,28 @@ function pressOrder(){
 	show("orderMenu");
 }
 
+function pressBack(){
+	if (currentMainMenuScreen == "choiceMenu")
+		backToMainMenu();
+	else if (currentMainMenuScreen == "mainMenu")
+		closeOrder();
+}
+
 function closeOrder(){
 	show("homeButtons");
 	hide("orderMenu");
 }
+
+function showOptions(xmlDocumentName){
+	currentMainMenuScreen = "choiceMenu";
+	hide("mainMenu");
+	show("choiceMenu");
+	loadXMLDoc(xmlDocumentName);
+}
+
+function backToMainMenu(){
+	currentMainMenuScreen = "mainMenu";
+	hide("choiceMenu");
+	show("mainMenu");
+}
+
