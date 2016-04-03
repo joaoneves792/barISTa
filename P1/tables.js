@@ -20,7 +20,7 @@ function fillTable(xml) {
 		var price = x[i].getElementsByTagName("PRICE")[0].childNodes[0].nodeValue;
 		table += "<tr><td>" + name +
 			"</td><td>" + credits +
-			"</td><td>" + price + "&euro;" +
+			"</td><td style=\"text-align:right\">" + price + "&euro;" +
 			"</td><td>" + "<img src=\"plus.png\" width=\"32\" onclick=\"placePendingOrder(\'" + name + "\', " + credits + ", " + price + ")\" >" +
 			"</td><td>" + "<img src=\"minus.png\" width=\"32\" onclick=\"removePendingOrder(\'" + name + "\')\" >" +
 			"</td></tr>";

@@ -15,6 +15,7 @@ function pressVote(){
 }
 
 function showBill(){
+	updateBill();
 	hide("billCollapsed");
 	show("billExtended");
 }

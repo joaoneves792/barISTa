@@ -83,7 +83,7 @@
 															</tr>
 															<tr>
 																<td>
-																	<div id="confirmOrder" class="button" onclick="closeOrder()"><b>Confirmar</b></div>
+																	<div id="confirmOrder" class="button" onclick="confirmPendingOrders()"><b>Confirmar</b></div>
 																</td>
 															</tr>
 														</table>
@@ -129,35 +129,13 @@
 										<!-- Insert Bill here -->
 										<div id="billCollapsed" class="bill" onclick="showBill()">
 											<b>Conta</b><img src="arrow_up.png" width="30" style="position: absolute; right: 10px; top: 5px;"><br><hr>
-											<b>Total:&nbsp;</b>5.00&euro;<br>
-											<b>Creditos:&nbsp;</b>2
+											<span id="billTotal"><b>Total:&nbsp;</b>0.00&euro;<br></span>
+											<span id="billCredits"><b>Creditos:&nbsp;</b>0</span>
 										</div>
 										<div id="billExtended" class="bill" onclick="hideBill()" style="display: none;">
 											<b>Conta</b><img src="arrow_up.png" width="30" style="position: absolute; right: 10px; top: 5px; transform: rotate(180deg);"><br><hr>
-											<table align=left>
-												<tr>
-													<td width="250px"><b>Nome</b></td>
-													<td width="100px"><b>Creditos</b></td>
-													<td width="50px"><b>Preço</b></td>
-												</tr>
-												<tr>
-													<td>Imperial</td>
-													<td>1</td>
-													<td>1.00&euro;</td>
-												</tr>
-											</table>
-											<table align=left style="position: absolute; bottom: 5px;">
-												<tr>
-													<td width="250px"><hr><b>Total:</b></td>
-													<td width="100px"><hr>1</td>
-													<td width="50px"><hr>1.00&euro;</td>
-												</tr>
-												<tr>
-													<td><!-- empty on purpose --></td>
-													<td><!-- empty on purpose --></td>
-													<td><div id="payBill" class="button">Pagar</div></td>
-												</tr>
-											</table>
+											<table align=left id="billTable"></table>
+											<table align=left id="billTotalTable" style="position: absolute; bottom: 5px;"></table>
 										</div>
 									</span>
 								</td>
