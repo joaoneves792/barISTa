@@ -106,7 +106,52 @@
 								</table>
 							</div>
 						</span>
-
+						<span id="prizesMenu" style="display: none;">
+								<div id="bigMenuDiv" class="bigMenu" style="margin:0px">
+									<table>
+										<tr height="250">
+											<td style="margin-left:5px; border:10px solid black">
+												<img id="img" src="img/1bebida_2.png" alt="image" title="image"/>
+											</td>
+											<td width="300px" align=left>
+												<span id="billCredits" style="font-size:30px; position:relative; left:30px;"><b>Creditos:&nbsp;0</b></span>
+												<span id="errorCredits" style="display: none; font-size:20px; position:relative; left:30px;"><b>Não dispõe de créditos para jogar.&nbsp;</b></span>
+												<span id="errorSpining" style="display: none; font-size:20px; position:relative; left:30px;"><b>A roda não está a rodar.&nbsp;</b></span>
+												<span id="errorAlreadySpining" style="display: none; font-size:20px; position:relative; left:30px;"><b>A roda já está a rodar.&nbsp;</b></span>
+												<span id="prizeWinner" style="display: none; font-size:30px; position:relative; left:30px;"><b>Parabéns, ganhou!!.&nbsp;</b></span>
+												
+											</td>
+											<td>
+											<table align=right style="position: absolute; top: 0px; right:0px;">
+												<tr height="40px">
+													<td>
+														<div class="button" onclick="stopSlideForced()" style="width: 60px; position: relative; right: 10px; top: 0px;"><b>Fechar</b></div>
+													</td>
+												</tr>
+											</table>
+										</td>
+										</tr>
+										<tr height="250" >
+											<td  id="tdPremio" style="border:10px solid red">
+												<img id="img2" src="img/teve.png" alt="image" title="image"/>
+											</td>
+											<td width="300px" align=left>												 
+												<div id="turnPrizzesButton" class="button" onclick="startSlide()" style="width: 120px; position:relative; left:30px;"><b>Rodar (-1)</b></div>
+												</p>
+												<div id="stopPrizzesButton" class="button" onclick="stopSlide()" style="width: 120px; position:relative; left:30px;"><b>Parar</b></div>
+											</td>
+										</tr>	
+										<tr height="250" >
+											<td style="margin-left:5px; border:10px solid black">
+												<img id="img3" src="img/teve.png" alt="image" title="image"/>
+											</td>
+											
+											<td>
+											</td>
+										</tr>	
+									</table>
+								</div>
+						</span>
 					</span>
 				</td>
 				<td width="960px">
