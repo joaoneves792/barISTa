@@ -131,3 +131,9 @@ table.choiceMenu{
 }
 #pendingOrderTable tr{	height: 10px; }
 #pendingOrderTable tr:nth-child(even) {background-color: #0075b3}
+
+div.imageContainer {
+	height: 225px;
+	width: 225px;
+	margin:0px; 
+}

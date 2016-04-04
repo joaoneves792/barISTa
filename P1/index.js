@@ -26,7 +26,8 @@ function hideBill(){
 }
 
 function pressPrizes(){
-
+	hide("homeButtons");
+	show("prizesMenu");
 }
 
 function pressOrder(){
