@@ -106,6 +106,7 @@ function updateBill(){
 	document.getElementById("billTotal").innerHTML = collapsedTotal;
 	var collapsedCredits = "<b>Creditos:&nbsp;</b>" + currentCredits;
 	document.getElementById("billCredits").innerHTML = collapsedCredits;
+	document.getElementById("prizeCredits").innerHTML = collapsedCredits;
 }
 
 
@@ -182,8 +183,7 @@ function stopSlide(){
 	if ( spinning == 1){		
 		hide("errorAlreadySpining");
 		currentCredits -= 1;
-		var collapsedCredits = "<b>Créditos:&nbsp;</b>" + currentCredits;
-		document.getElementById("billCredits").innerHTML = collapsedCredits;
+		updateBill();
 		clearTimeout(timer);
 		spinning = 0;
 	}else{
