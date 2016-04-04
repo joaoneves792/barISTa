@@ -14,12 +14,12 @@ div{    /*Defaults for all divs*/
 	padding: 15px;
 	border: 15px solid rgba(023, 147, 209, 1);
 	background-clip: padding-box;
-	border-radius: 25px;
+	border-radius: 0px;/*25px;*/
 	margin: 10px;
 	text-align: left;
 }
 
-table{
+table, th, td{
 	/*border: 1px solid white;*/
 	table-layout:fixed;
 }
@@ -109,25 +109,30 @@ table.choiceMenu{
 #choiceMenuTable td.add{ width: 30px; }
 #choiceMenuTable td.remove{ width: 30px; }
 #choiceMenuTable{ width: 100%; }
-#choiceMenuTable thead, choiceMenuTable tbody{
+
+table.choiceMenu thead, table.choiceMenu tbody{
 	float: left;
 	width: 100%;
 }
-#choiceMenuTable tbody{
+table.choiceMenu tbody{
 	overflow: auto;
 	height: 750px;
 }
-#choiceMenuTable tr{
+table.choiceMenu tr{
 	width: 100%;
 	text-align: left;
 }
-#choiceMenuTable th, #choiceMenuTable td{ width: 33%; }
+table.choiceMenu th, table.choiceMenu td{ width: 33%; }
 
 
 
 #pendingOrderTable{
 	position: absolute;
-	top: 110px;
+	top: 115px;
 }
 #pendingOrderTable tr{	height: 10px; }
 #pendingOrderTable tr:nth-child(even) {background-color: #0075b3}
+#pendingOrderTable tbody{ 
+	height: 195px; 
+	overflow: auto;
+}

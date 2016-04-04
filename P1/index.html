@@ -29,7 +29,8 @@
 									<tr>
 										<td width="420px">
 												<!-- Insert Search Box here -->
-											<input type="text" name="menuSearch" size=60 value="Procurar"><br>
+											<div class="button" onclick="pressBack()" style="width: 60px; position: absolute; left: 25px; top: 0px;"><b>Voltar</b></div><br><br>
+											<input type="text" name="menuSearch" size=60 style="position: relative; left: 5px;" value="Procurar"><br>
 											<span id="mainMenu">
 												<table align=left>
 													<!-- Insert order menu buttons here -->
@@ -67,7 +68,7 @@
 											<table align=right style="position: absolute; top: 0px; right:0px;">
 												<tr height="40px">
 													<td>
-														<div class="button" onclick="pressBack()" style="width: 60px; position: absolute; right: 10px; top: 0px;"><b>Voltar</b></div>
+														<div class="button" onclick="closeOrder()" style="width: 60px; position: absolute; right: 10px; top: 0px;"><b>Fechar</b></div>
 													</td>
 												</tr>
 												<tr>
@@ -83,7 +84,16 @@
 															</tr>
 															<tr>
 																<td>
-																	<div id="confirmOrder" class="button" onclick="confirmPendingOrders()"><b>Confirmar</b></div>
+																	<table align=left>
+																		<tr>
+																			<td>
+																				<div id="wipeOrder" class="button" onclick="wipePendingOrders()"><b>Limpar</b></div>
+																			</td>
+																			<td>
+																				<div id="confirmOrder" class="button" onclick="confirmPendingOrders()"><b>Confirmar</b></div>
+																			</td>
+																		</tr>
+																	</table>
 																</td>
 															</tr>
 														</table>
@@ -123,7 +133,7 @@
 									</span>
 								</td>
 							</tr>
-							<tr height="430px">
+							<tr height="410px">
 								<td width="960px">
 									<span id="bottomSide">
 										<!-- Insert Bill here -->

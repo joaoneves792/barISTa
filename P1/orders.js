@@ -69,6 +69,11 @@ function confirmPendingOrders(){
 	}
 }
 
+function wipePendingOrders(){
+	pendingOrder = [];
+	updatePendingOrders();
+}
+
 function updateBill(){
 	var i;
 	var totalPrice = 0;
@@ -92,7 +97,7 @@ function updateBill(){
 	document.getElementById("billTable").innerHTML = table;
 
 	//Update the expanded bill total section
-	table="<tr><td width=\"110px\"><hr><b>Total:</b></td><td width=\"180px\"><hr>" + currentCredits + "</td><td width=\"50px\" style=\"text-align:right\"><hr>" + totalPrice.toFixed(2) + "&euro;" + "</td></tr>";
+	table="<tr><td width=\"110px\"><hr><b>Total:</b></td><td width=\"210px\"><hr>" + currentCredits + "</td><td width=\"50px\" style=\"text-align:right\"><hr>" + totalPrice.toFixed(2) + "&euro;" + "</td></tr>";
 	table += "<tr><td></td><td></td><td><div id=\"payBill\" class=\"button\">Pagar</div></td></tr>";
 	document.getElementById("billTotalTable").innerHTML = table;
 
