@@ -44,8 +44,8 @@ function createTableRow(name, credits, price){
 	return  "<tr><td>" + name +
 		"</td><td>" + credits +
 		"</td><td style=\"text-align:right\">" + price + "&euro;" +
-		"</td><td>" + "<img src=\"plus.png\" width=\"32\" onclick=\"placePendingOrder(\'" + escapeQuotes(name) + "\', " + credits + ", " + price + ")\" >" +
-		"</td><td>" + "<img src=\"minus.png\" width=\"32\" onclick=\"removePendingOrder(\'" + escapeQuotes(name) + "\')\" >" +
+		"</td><td>" + "<img src=\"img/plus.png\" width=\"32\" onclick=\"placePendingOrder(\'" + escapeQuotes(name) + "\', " + credits + ", " + price + ")\" >" +
+		"</td><td>" + "<img src=\"img/minus.png\" width=\"32\" onclick=\"removePendingOrder(\'" + escapeQuotes(name) + "\')\" >" +
 		"</td></tr>";
 
 }

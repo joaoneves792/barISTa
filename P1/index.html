@@ -9,6 +9,7 @@
 		<script src="index.js"></script>
 		<script src="tables.js"></script>
 		<script src="orders.js"></script>
+		<script src="prizes.js"></script>
 
 	</head>
 	<body>
@@ -35,19 +36,19 @@
 												<table align=left>
 													<!-- Insert order menu buttons here -->
 													<tr height="60px">
-														<td width="100px"><div id="mainMenuButton" class="button" onclick="showOptions('Imperial.xml')" ><b>Imperial</b></div></td>
-														<td width="100px"><div id="mainMenuButton" class="button" onclick="showOptions('cervejas.xml')" ><b>Cerveja</b></div></td>
-														<td width="100px"><div id="mainMenuButton" class="button" onclick="showOptions('Gin.xml')" ><b>Gin</b></div></td>
-														<td width="100px"><div id="mainMenuButton" class="button" onclick="showOptions('shots.xml')" ><b>Shots</b></div></td>
+														<td width="100px"><div id="mainMenuButton" class="button" onclick="showOptions('database/Imperial.xml')" ><b>Imperial</b></div></td>
+														<td width="100px"><div id="mainMenuButton" class="button" onclick="showOptions('database/cervejas.xml')" ><b>Cerveja</b></div></td>
+														<td width="100px"><div id="mainMenuButton" class="button" onclick="showOptions('database/Gin.xml')" ><b>Gin</b></div></td>
+														<td width="100px"><div id="mainMenuButton" class="button" onclick="showOptions('database/shots.xml')" ><b>Shots</b></div></td>
 													</tr>
 													<tr height="60px">
-														<td width="100px"><div id="mainMenuButton" class="button" onclick="showOptions('Bebidas espirituosas.xml')" ><b>Bebidas<br>espirituosas</b></div></td>
-														<td width="100px"><div id="mainMenuButton" class="button" onclick="showOptions('vinhos.xml')" ><b>Vinhos</b></div></td>
-														<td width="100px"><div id="mainMenuButton" class="button" onclick="showOptions('refrigerante.xml')" ><b>Refrigerantes</b></div></td>
-														<td width="100px"><div id="mainMenuButton" class="button" onclick="showOptions('outras bebidas.xml')" ><b>Outras<br>bebidas</b></div></td>
+														<td width="100px"><div id="mainMenuButton" class="button" onclick="showOptions('database/Bebidas espirituosas.xml')" ><b>Bebidas<br>espirituosas</b></div></td>
+														<td width="100px"><div id="mainMenuButton" class="button" onclick="showOptions('database/vinhos.xml')" ><b>Vinhos</b></div></td>
+														<td width="100px"><div id="mainMenuButton" class="button" onclick="showOptions('database/refrigerante.xml')" ><b>Refrigerantes</b></div></td>
+														<td width="100px"><div id="mainMenuButton" class="button" onclick="showOptions('database/outras bebidas.xml')" ><b>Outras<br>bebidas</b></div></td>
 													</tr>
 													<tr height="200px">
-														<td width="100px"><div id="mainMenuButton" class="button" onclick="showOptions('Comida.xml')" ><b>Comida</b></div></td>
+														<td width="100px"><div id="mainMenuButton" class="button" onclick="showOptions('database/Comida.xml')" ><b>Comida</b></div></td>
 														<td width="100px"></td>
 														<td width="100px"></td>
 														<td width="100px"></td>
@@ -183,12 +184,12 @@
 									<span id="bottomSide">
 										<!-- Insert Bill here -->
 										<div id="billCollapsed" class="bill" onclick="showBill()">
-											<b>Conta</b><img src="arrow_up.png" width="30" style="position: absolute; right: 10px; top: 5px;"><br><hr>
+											<b>Conta</b><img src="img/arrow_up.png" width="30" style="position: absolute; right: 10px; top: 5px;"><br><hr>
 											<span id="billTotal"><b>Total:&nbsp;</b>0.00&euro;<br></span>
 											<span id="billCredits"><b>Creditos:&nbsp;</b>0</span>
 										</div>
 										<div id="billExtended" class="bill" onclick="hideBill()" style="display: none;">
-											<b>Conta</b><img src="arrow_up.png" width="30" style="position: absolute; right: 10px; top: 5px; transform: rotate(180deg);"><br><hr>
+											<b>Conta</b><img src="img/arrow_up.png" width="30" style="position: absolute; right: 10px; top: 5px; transform: rotate(180deg);"><br><hr>
 											<table align=left id="billTable"></table>
 											<table align=left id="billTotalTable" style="position: absolute; bottom: 5px;"></table>
 										</div>
