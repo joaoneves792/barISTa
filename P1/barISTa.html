@@ -32,7 +32,7 @@
 										<td width="420px">
 												<!-- Insert Search Box here -->
 											<div class="button" onclick="pressBack()" style="width: 60px; position: absolute; left: 25px; top: 0px;"><b>Voltar</b></div><br><br>
-											<input type="text" name="menuSearch" size=74 style="position: relative; left: 5px;" value="Procurar"><br>
+											<input type="text" name="menuSearch" size=50 style="position: relative; left: 5px;" value="Procurar"><br>
 											<span id="mainMenu">
 												<table align=left>
 													<!-- Insert order menu buttons here -->
@@ -40,13 +40,19 @@
 														<td width="100px"><div id="mainMenuButton" class="button" onclick="showOptions('database/Imperial.xml')" ><b>Imperial</b></div></td>
 														<td width="100px"><div id="mainMenuButton" class="button" onclick="showOptions('database/cervejas.xml')" ><b>Cerveja</b></div></td>
 														<td width="100px"><div id="mainMenuButton" class="button" onclick="showOptions('database/Gin.xml')" ><b>Gin</b></div></td>
-														<td width="100px"><div id="mainMenuButton" class="button" onclick="showOptions('database/shots.xml')" ><b>Shots</b></div></td>
+														<td width="100px"></td>
 													</tr>
 													<tr height="60px">
+														<td width="100px"><div id="mainMenuButton" class="button" onclick="showOptions('database/shots.xml')" ><b>Shots</b></div></td>
 														<td width="100px"><div id="mainMenuButton" class="button" onclick="showOptions('database/Bebidas espirituosas.xml')" ><b>Bebidas<br>espirituosas</b></div></td>
 														<td width="100px"><div id="mainMenuButton" class="button" onclick="showOptions('database/vinhos.xml')" ><b>Vinhos</b></div></td>
+														<td width="100px"></td>
+													</tr>
+													<tr height="60px">
 														<td width="100px"><div id="mainMenuButton" class="button" onclick="showOptions('database/refrigerante.xml')" ><b>Refrigerantes</b></div></td>
 														<td width="100px"><div id="mainMenuButton" class="button" onclick="showOptions('database/outras bebidas.xml')" ><b>Outras<br>bebidas</b></div></td>
+														<td width="100px"></td>
+														<td width="100px"></td>
 													</tr>
 													<tr height="200px">
 														<td width="100px"><div id="mainMenuButton" class="button" onclick="showOptions('database/Comida.xml')" ><b>Comida</b></div></td>
@@ -109,7 +115,7 @@
 							</div>
 						</span>
 						<span id="prizesMenu" style="display: none;">
-								<div id="bigMenuDiv" class="bigMenu" style="margin:0px; width:550px;">
+								<div id="bigMenuDiv" class="bigMenu" style="margin:0px; width:550px; height: 800px;">
 									<table>
 										<tr height="250">
 											<td style="margin-left:5px; border:10px; padding: 3px;">
