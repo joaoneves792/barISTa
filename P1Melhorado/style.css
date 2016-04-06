@@ -1,0 +1,144 @@
+body{
+	background: #000000; 
+	background-image: url("img/logo.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+
+	font-family:calibri; 
+	text-align: center;
+	color: white;
+}
+
+div{    /*Defaults for all divs*/
+	background: rgba(023, 147, 209, 1);
+	padding: 15px;
+	border: 15px solid rgba(023, 147, 209, 1);
+	background-clip: padding-box;
+	border-radius: 0px;/*25px;*/
+	margin: 10px;
+	text-align: left;
+}
+
+table, th, td{
+	/*border: 1px solid white;*/
+	table-layout:fixed;
+}
+
+div.button{
+	background: rgba(000, 117, 179, 1);
+	padding: 0px;
+	margin: 0px;
+	border: 15px solid rgba(000, 117, 179, 1);
+	border-radius: 15px;
+	text-align: center;
+}
+
+#homeButtons{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
+div.jukebox{
+	width: 400px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+
+}
+
+div.bill{
+	width: 400px;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+
+}
+#billExtended{
+	height: 400px;
+}
+#billTable{
+       	width: 100%;
+}
+#billTable thead, tbody{
+	float: left;
+	width: 100%;
+}
+#billTable tbody{
+	overflow: auto;
+	height: 250px;
+}
+#billTable tr{
+	width: 100%;
+	text-align: left;
+}
+#billTable th, #billTable td{
+	width: 33%;
+}
+
+div.bigMenu{
+	width: 760px;
+	height: 650px; 
+	position: absolute;
+	top: 5px;
+	left: 5px;
+}
+#mainMenuButton{
+	width: 120px;
+	height: 50px; 
+}
+
+div.orderDetails{
+	background: rgba(043, 167, 229, 1);
+	border: 15px solid rgba(043, 167, 229, 1);
+	text-align: left;
+	width: 200px;
+	height: 250px;
+}
+
+table.choiceMenu{
+	width: 530px;
+       	/*height:400px;*/
+       	overflow:auto;
+}
+#choiceMenuTable tr{	height: 10px; }
+#choiceMenuTable tr:nth-child(even) {background-color: #0075b3}
+#choiceMenuTable td.name{ width: 70%; }
+#choiceMenuTable td.credits{ width: 70px;}
+#choiceMenuTable td.price{ width: 50px; }
+#choiceMenuTable td.add{ width: 30px; }
+#choiceMenuTable td.remove{ width: 30px; }
+#choiceMenuTable{ width: 100%; }
+
+table.choiceMenu thead, table.choiceMenu tbody{
+	float: left;
+	width: 100%;
+}
+table.choiceMenu tbody{
+	overflow: auto;
+	height: 600px;
+}
+table.choiceMenu tr{
+	width: 100%;
+	text-align: left;
+}
+table.choiceMenu th, table.choiceMenu td{ width: 33%; }
+
+
+
+#pendingOrderTable{
+	position: absolute;
+	top: 115px;
+}
+#pendingOrderTable tr{	height: 10px; }
+#pendingOrderTable tr:nth-child(even) {background-color: #0075b3}
+#pendingOrderTable tbody{ 
+	height: 195px; 
+	overflow: auto;
+}
+div.imageContainer {
+	height: 225px;
+	width: 225px;
+	margin:0px; 
+
