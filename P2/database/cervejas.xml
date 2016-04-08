@@ -1,0 +1,28 @@
+<!--Deviamos separar tipo por minis e medias?-->
+<CATALOG>
+	<OPTION>
+		<NAME>Super Bock</NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>1.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Sagres</NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>1.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Heineken</NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>1.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Carlsberg</NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>1.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Super Bock Sem Álcool</NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>1.00</PRICE>
+	</OPTION>
+</CATALOG>
