@@ -1,21 +1,21 @@
 <CATALOG>
 	<OPTION>
-		<NAME>Tosta Mista</NAME>
-		<CREDITS>1</CREDITS>
-		<PRICE>1.50</PRICE>
-	</OPTION>
-	<OPTION>
-		<NAME>Cachorro</NAME>
-		<CREDITS>1</CREDITS>
-		<PRICE>1.50</PRICE>
-	</OPTION>
-	<OPTION>
-		<NAME>Tremoços</NAME>
+		<NAME>Amendoins</NAME>
 		<CREDITS>1</CREDITS>
 		<PRICE>0.50</PRICE>
 	</OPTION>
 	<OPTION>
-		<NAME>Amendoins</NAME>
+		<NAME>Cachorro</NAME>
+		<CREDITS>2</CREDITS>
+		<PRICE>1.50</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Tosta Mista</NAME>
+		<CREDITS>2</CREDITS>
+		<PRICE>1.50</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Tremoços</NAME>
 		<CREDITS>1</CREDITS>
 		<PRICE>0.50</PRICE>
 	</OPTION>

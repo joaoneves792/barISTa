@@ -15,32 +15,6 @@
 		<CREDITS>1</CREDITS>
 		<PRICE>1.00</PRICE>
 	</OPTION>
-	<!--Ice Tea-->
-	<OPTION>
-		<NAME>Ice Tea de Limão</NAME>
-		<CREDITS>1</CREDITS>
-		<PRICE>1.00</PRICE>
-	</OPTION>
-	<OPTION>
-		<NAME>Ice Tea de Pessego</NAME>
-		<CREDITS>1</CREDITS>
-		<PRICE>1.00</PRICE>
-	</OPTION>
-	<OPTION>
-		<NAME>Ice Tea de Manga</NAME>
-		<CREDITS>1</CREDITS>
-		<PRICE>1.00</PRICE>
-	</OPTION>
-	<OPTION>
-		<NAME>Ice Tea de Frutos Exóticos</NAME>
-		<CREDITS>1</CREDITS>
-		<PRICE>1.00</PRICE>
-	</OPTION>
-	<OPTION>
-		<NAME>Ice Tea de Chá Verde</NAME>
-		<CREDITS>1</CREDITS>
-		<PRICE>1.00</PRICE>
-	</OPTION>
 	<!--Frize-->
 	<OPTION>
 		<NAME>Frize Natural</NAME>
@@ -64,6 +38,32 @@
 	</OPTION>
 	<OPTION>
 		<NAME>Frize Ginger Ale</NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>1.00</PRICE>
+	</OPTION>
+	<!--Ice Tea-->
+	<OPTION>
+		<NAME>Ice Tea de Limão</NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>1.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Ice Tea de Pessego</NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>1.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Ice Tea de Manga</NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>1.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Ice Tea de Frutos Exóticos</NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>1.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Ice Tea de Chá Verde</NAME>
 		<CREDITS>1</CREDITS>
 		<PRICE>1.00</PRICE>
 	</OPTION>
@@ -97,7 +97,7 @@
 	<!--Bebidas Energeticas-->
 	<OPTION>
 		<NAME>Red Bull</NAME>
-		<CREDITS>1</CREDITS>
+		<CREDITS>2</CREDITS>
 		<PRICE>2.00</PRICE>
 	</OPTION>
 </CATALOG>

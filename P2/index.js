@@ -13,7 +13,7 @@ function show(id){
 function pressVote(){
 	hide("voteButton");
 	show("jukeboxExtended");
-	loadMusicXMLDoc("database/music.xml");
+	loadMusicXMLDoc("database/Musicas.xml");
 }
 function cancelVote(){
 	show("voteButton");

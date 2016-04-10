@@ -1,26 +1,5 @@
 <!--Vinhos ao copo, garrafa, interessa a dimensão da garrafa?-->
 <CATALOG>
-	<!--Vinho do Porto-->
-	<OPTION>
-		<NAME>Vinho do Porto Tawny</NAME>
-		<CREDITS>1</CREDITS>
-		<PRICE>1.00</PRICE>
-	</OPTION>
-	<OPTION>
-		<NAME>Vinho do Porto Dry</NAME>
-		<CREDITS>1</CREDITS>
-		<PRICE>1.00</PRICE>
-	</OPTION>
-	<OPTION>
-		<NAME>Vinho do Porto LBV</NAME>
-		<CREDITS>1</CREDITS>
-		<PRICE>1.00</PRICE>
-	</OPTION>
-	<OPTION>
-		<NAME>Vinho Regional da Madeira Barbeito</NAME>
-		<CREDITS>1</CREDITS>
-		<PRICE>1.00</PRICE>
-	</OPTION>
 	<!--Vinho Branco-->
 		<!--Alentejo-->
 	<OPTION>
@@ -215,5 +194,26 @@
 		<NAME>Valle Pradinhos 07</NAME>
 		<CREDITS>1</CREDITS>
 		<PRICE>19.50</PRICE>
+	</OPTION>
+		<!--Vinho do Porto-->
+	<OPTION>
+		<NAME>Vinho do Porto Tawny</NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>1.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Vinho do Porto Dry</NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>1.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Vinho do Porto LBV</NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>1.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Vinho Regional da Madeira Barbeito</NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>1.00</PRICE>
 	</OPTION>
 </CATALOG>
