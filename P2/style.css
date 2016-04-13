@@ -58,12 +58,17 @@ div.jukebox{
 
 #searchMusic{
 	width: 420px;
+       	overflow:auto;
 }
 #searchMusic td.autor{ width: 40%; }
 #searchMusic td.musica{ width: 55%; }
 #searchMusic td.add{ width: 5%;}
 #searchMusic tr:nth-child(even) {background-color: #0075b3}
 
+#searchMusic tbody{
+	overflow: auto;
+	height: 180px;
+}
 
 div.bill{
 	width: 400px;
