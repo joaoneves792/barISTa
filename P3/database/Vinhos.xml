@@ -1,0 +1,219 @@
+<!--Vinhos ao copo, garrafa, interessa a dimensão da garrafa?-->
+<CATALOG>
+	<!--Vinho Branco-->
+		<!--Alentejo-->
+	<OPTION>
+		<NAME>Alento 13</NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>11.50</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Herdade do Esporão Vinha da Defesa 11</NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>15.50</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Herdade do Esporão Private Selection 12</NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>53.00</PRICE>
+	</OPTION>
+		<!--Algarve-->
+	<OPTION>
+		<NAME>Herdade do Peso Vinha do Monte 12</NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>11.50</PRICE>
+	</OPTION>
+		<!--Beiras-->
+	<OPTION>
+		<NAME>Quinta do Cardo Síria 11</NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>12.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Vinhas Velhas Branco (Garrafa Borgonha) 11</NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>17.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>FP Branco 12</NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>18.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Quinta de Foz de Arouce 10</NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>11.50</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Luís Pato Vinha Formal 10</NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>39.50</PRICE>
+	</OPTION>
+		<!--Dão-->
+	<OPTION>
+		<NAME>Casa da Passarela A Descoberta 12</NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>10.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Quinta dos Carvalhais Encruzado 11</NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>36.50</PRICE>
+	</OPTION>
+		<!--Douro-->
+	<OPTION>
+		<NAME>Montes Ermos - Reserva 12 </NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>10.0</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Palato 11</NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>19.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Quinta da Casa Amarela Selection 13</NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>26.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Quinta de Cottas Grande Reserva 10</NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>36.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Niepoort Redoma Reserva 11</NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>55.50</PRICE>
+	</OPTION>
+		<!--Lisboa-->
+	<OPTION>
+		<NAME>Morgado de Santa Catherina 10</NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>20.00</PRICE>
+	</OPTION>
+		<!--Setubal-->
+	<OPTION>
+		<NAME>Cova da Ursa 11</NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>25.00</PRICE>
+	</OPTION>
+		<!--Tejo-->
+	<OPTION>
+		<NAME>Quinta Alorna Reserva Chardonnay 10 </NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>23.50</PRICE>
+	</OPTION>
+		<!--Trás-os-Montes-->
+	<OPTION>
+		<NAME>Valle Pradinhos 12</NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>55.50</PRICE>
+	</OPTION>
+<!--Vinho Tinto-->
+		<!--Alentejo-->
+	<OPTION>
+		<NAME>Herdade Paço do Conde 11</NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>10.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Monte da Peceguina 12</NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>22.50</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Cortes de Cima Incógnito 09</NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>85.00</PRICE>
+	</OPTION>
+		<!--Beiras-->
+	<OPTION>
+		<NAME>Aveleda Follies Cabernet Sauvignon/Touriga Nacional 10</NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>21.00</PRICE>
+	</OPTION>
+		<!--Dão-->
+	<OPTION>
+		<NAME>Casa da Passarela A Descoberta 10</NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>10.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Munda Touriga Nacional 06</NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>36.50</PRICE>
+	</OPTION>
+		<!--Douro-->
+	<OPTION>
+		<NAME>Casa Ferreirinha Esteva 12</NAME>
+		<NAME>Montes Ermos - Reserva 12 </NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>10.0</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Dona Matilde 09</NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>19.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Casa Ferreirinha Vinha Grande 10 </NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>26.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Quinta de São José Touriga Nacional 11</NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>36.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Quinta das Tecedeiras Reserva 09</NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>50.50</PRICE>
+	</OPTION>
+		<!--Lisboa-->
+	<OPTION>
+		<NAME>Quinta de Chocapalha 08</NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>15.00</PRICE>
+	</OPTION>
+		<!--Setubal-->
+	<OPTION>
+		<NAME>Herdade do Portocarro 08</NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>20.00</PRICE>
+	</OPTION>
+		<!--Tejo-->
+	<OPTION>
+		<NAME>Quinta Alorna Reserva 09</NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>21.50</PRICE>
+	</OPTION>
+		<!--Trás-os-Montes-->
+	<OPTION>
+		<NAME>Valle Pradinhos 07</NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>19.50</PRICE>
+	</OPTION>
+		<!--Vinho do Porto-->
+	<OPTION>
+		<NAME>Vinho do Porto Tawny</NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>1.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Vinho do Porto Dry</NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>1.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Vinho do Porto LBV</NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>1.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Vinho Regional da Madeira Barbeito</NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>1.00</PRICE>
+	</OPTION>
+</CATALOG>

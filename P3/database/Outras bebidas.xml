@@ -1,0 +1,91 @@
+<CATALOG>
+	<!--Águas-->
+	<OPTION>
+		<NAME>Água Mineral</NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>0.75</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Água das Pedras</NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>0.85</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Água Tónica</NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>0.85</PRICE>
+	</OPTION>
+	<!--Café-->
+	<OPTION>
+		<NAME>Café</NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>1.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Café Duplo</NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>1.20</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Capuccino</NAME>
+		<CREDITS>2</CREDITS>
+		<PRICE>2.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Descafeínado</NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>0.80</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Irish Cofee</NAME>
+		<CREDITS>2</CREDITS>
+		<PRICE>2.40</PRICE>
+	</OPTION>
+	<!--Chas-->
+	<OPTION>
+		<NAME>Chá de Camomila</NAME>
+		<CREDITS>2</CREDITS>
+		<PRICE>1.50</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Chá de Cidreira</NAME>
+		<CREDITS>2</CREDITS>
+		<PRICE>1.50</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Chá Earl Grey</NAME>
+		<CREDITS>2</CREDITS>
+		<PRICE>1.50</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Chá Verde</NAME>
+		<CREDITS>2</CREDITS>
+		<PRICE>1.50</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Chá de Limão</NAME>
+		<CREDITS>2</CREDITS>
+		<PRICE>1.50</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Chá Preto</NAME>
+		<CREDITS>2</CREDITS>
+		<PRICE>1.50</PRICE>
+	</OPTION>
+	<!--Outras-->
+	<OPTION>
+		<NAME>Champanhe</NAME>
+		<CREDITS>3</CREDITS>
+		<PRICE>3.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Limonada</NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>1.20</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Sumo de Laranja Natural</NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>1.20</PRICE>
+	</OPTION>
+</CATALOG>
