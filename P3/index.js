@@ -15,7 +15,7 @@ function pressVote(){
 	show("jukeboxExtended");
 	loadMusicXMLDoc("database/Musicas.xml");
 }
-function cancelVote(){
+function closeVote(){
 	show("voteButton");
 	hide("jukeboxExtended");
 	hide("confirmVoteMenu");
@@ -45,6 +45,7 @@ function pressPrizes(){
 
 function pressOrder(){
 	updatePendingOrders();
+	currentMainMenuScreen = "mainMenu";
 	hide("homeButtons");
 	show("orderMenu");
 }
