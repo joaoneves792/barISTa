@@ -61,9 +61,15 @@ div.jukebox{
        	overflow:auto;
 }
 #searchMusic td.autor{ width: 40%; }
-#searchMusic td.musica{ width: 55%; }
+#searchMusic td.musica{ width: 50%; }
 #searchMusic td.add{ width: 5%;}
+#searchMusic td.pos{ width: 5%;}
 #searchMusic tr:nth-child(even) {background-color: #0075b3}
+#searchMusic tr.votedFor{
+	background-color: #00AA00;
+	height: 32px;
+}
+
 
 #searchMusic tbody{
 	overflow: auto;
@@ -145,7 +151,7 @@ table.choiceMenu tr{
 	width: 100%;
 	text-align: left;
 }
-table.choiceMenu th, table.choiceMenu td{ width: 33%; }
+/*table.choiceMenu th, table.choiceMenu td{ width: 33%; }*/
 
 
 

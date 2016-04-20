@@ -139,9 +139,9 @@ function createMusicList(xml) {
 }
 
 function createMusicTableRow(author, song){
-	return  "<tr><td>" + author +
+	return  "<td>" + author +
 		"</td><td>" + song +
 		"</td><td>" + "<img src=\"img/plus.png\" width=\"32\" onclick=\"voteFor(\'" + escapeQuotes(author) + "\', \'" + escapeQuotes(song) + "\')\" >" +
-		"</td></tr>";
+		"</td>";
 
 }
