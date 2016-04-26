@@ -1,0 +1,27 @@
+<CATALOG>
+	<OPTION>
+		<NAME>Gin Old Raj</NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>1.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Gin Bombay Sapphire</NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>1.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Gin Beefeater</NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>1.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Gin Tanqueray</NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>1.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Gin Gordon's</NAME>
+		<CREDITS>1</CREDITS>
+		<PRICE>1.00</PRICE>
+	</OPTION>
+</CATALOG>

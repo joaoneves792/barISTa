@@ -1,0 +1,267 @@
+<!-- não sei muito bem o que inclui bebidas espirituosas, por isso inclui tudo o que fosse alcoolico que nao fosse vinho, gin, cerveja ou champanhe-->
+<CATALOG>
+	<!--Aguardente-->
+	<OPTION>
+		<NAME>Aguardente Adega Velha</NAME>
+		<CREDITS>11</CREDITS>
+		<PRICE>11.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Aguardente Brandy Macieira</NAME>
+		<CREDITS>4</CREDITS>
+		<PRICE>4.00</PRICE>
+	</OPTION>
+	<!--Cocktails (Alcoolicos)-->
+	<OPTION>
+		<NAME>Mojito</NAME>
+		<CREDITS>5</CREDITS>
+		<PRICE>5.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Margarita</NAME>
+		<CREDITS>5</CREDITS>
+		<PRICE>5.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Caipirinha</NAME>
+		<CREDITS>5</CREDITS>
+		<PRICE>5.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Daikiri</NAME>
+		<CREDITS>5</CREDITS>
+		<PRICE>5.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Bloody Mary</NAME>
+		<CREDITS>5</CREDITS>
+		<PRICE>5.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Dry Martini</NAME>
+		<CREDITS>5</CREDITS>
+		<PRICE>5.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Lagoa Azul</NAME>
+		<CREDITS>5</CREDITS>
+		<PRICE>5.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Framboesa Delight</NAME>
+		<CREDITS>5</CREDITS>
+		<PRICE>5.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Blue Lafy sapphire</NAME>
+		<CREDITS>5</CREDITS>
+		<PRICE>5.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Daikiwi</NAME>
+		<CREDITS>5</CREDITS>
+		<PRICE>5.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Cuba Libre</NAME>
+		<CREDITS>5</CREDITS>
+		<PRICE>5.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Piña Colada</NAME>
+		<CREDITS>5</CREDITS>
+		<PRICE>5.00</PRICE>
+	</OPTION>
+	<!--Cocktails Sem Álcooll-->
+	<OPTION>
+		<NAME>Fruit Mix Punch</NAME>
+		<CREDITS>5</CREDITS>
+		<PRICE>5.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Junior "Sommer" Drink</NAME>
+		<CREDITS>5</CREDITS>
+		<PRICE>5.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Daikiri Virgem</NAME>
+		<CREDITS>5</CREDITS>
+		<PRICE>5.00</PRICE>
+	</OPTION>
+	<!--Digestivos-->
+	<OPTION>
+		<NAME>Martini Extra Dry</NAME>
+		<CREDITS>5</CREDITS>
+		<PRICE>5.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Martini Bianco</NAME>
+		<CREDITS>5</CREDITS>
+		<PRICE>5.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Martini Rosato</NAME>
+		<CREDITS>5</CREDITS>
+		<PRICE>5.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Campari</NAME>
+		<CREDITS>5</CREDITS>
+		<PRICE>5.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Ricard</NAME>
+		<CREDITS>5</CREDITS>
+		<PRICE>5.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Permod</NAME>
+		<CREDITS>5</CREDITS>
+		<PRICE>5.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Moscatel</NAME>
+		<CREDITS>5</CREDITS>
+		<PRICE>5.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Medronho</NAME>
+		<CREDITS>5</CREDITS>
+		<PRICE>5.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Aliança</NAME>
+		<CREDITS>5</CREDITS>
+		<PRICE>9.00</PRICE>
+	</OPTION>
+	<!--Licores-->
+	<OPTION>
+		<NAME>Licor Amarreto Di Sarono</NAME>
+		<CREDITS>5</CREDITS>
+		<PRICE>6.50</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Licor Bailey's</NAME>
+		<CREDITS>5</CREDITS>
+		<PRICE>5.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Licor Beirão</NAME>
+		<CREDITS>5</CREDITS>
+		<PRICE>5.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Licor Bols Blue</NAME>
+		<CREDITS>5</CREDITS>
+		<PRICE>5.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Licor Cointreau</NAME>
+		<CREDITS>5</CREDITS>
+		<PRICE>5.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Licor Café</NAME>
+		<CREDITS>5</CREDITS>
+		<PRICE>5.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Licor Creme de Cassis</NAME>
+		<CREDITS>5</CREDITS>
+		<PRICE>5.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Licor Drambuie</NAME>
+		<CREDITS>5</CREDITS>
+		<PRICE>5.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Licor Grand Marnier</NAME>
+		<CREDITS>5</CREDITS>
+		<PRICE>5.00</PRICE>
+	</OPTION>
+	<!--Whisky-->
+	<!--Whisky Novos-->
+	<OPTION>
+		<NAME>Whisky J&amp;B</NAME>
+		<CREDITS>5</CREDITS>
+		<PRICE>5.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Whisky Johnnie Walker Red Label</NAME>
+		<CREDITS>5</CREDITS>
+		<PRICE>5.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Whisky Famous Grouse</NAME>
+		<CREDITS>5</CREDITS>
+		<PRICE>5.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Whisky Cutty Sark</NAME>
+		<CREDITS>5</CREDITS>
+		<PRICE>5.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Whisky Jameson</NAME>
+		<CREDITS>5</CREDITS>
+		<PRICE>5.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Whisky Canadian Club</NAME>
+		<CREDITS>5</CREDITS>
+		<PRICE>5.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Whisky Bushmill's</NAME>
+		<CREDITS>5</CREDITS>
+		<PRICE>5.00</PRICE>
+	</OPTION>
+	<!--Whiskys velhos-->
+	<OPTION>
+		<NAME>Whisky Johnnie Walker Black label</NAME>
+		<CREDITS>9</CREDITS>
+		<PRICE>9.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Whisky The Balvenie</NAME>
+		<CREDITS>11</CREDITS>
+		<PRICE>11.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Whisky Cardhu</NAME>
+		<CREDITS>9</CREDITS>
+		<PRICE>9.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Whisky Jack Daniel's</NAME>
+		<CREDITS>9</CREDITS>
+		<PRICE>9.00</PRICE>
+	</OPTION>
+	<!--Outros(Deviamos por mais)-->
+	<OPTION>
+		<NAME>Whisky Cola</NAME>
+		<CREDITS>5</CREDITS>
+		<PRICE>5.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Safari Cola</NAME>
+		<CREDITS>5</CREDITS>
+		<PRICE>5.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Vodka Laranja</NAME>
+		<CREDITS>5</CREDITS>
+		<PRICE>5.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Vodka Limão</NAME>
+		<CREDITS>5</CREDITS>
+		<PRICE>5.00</PRICE>
+	</OPTION>
+	<OPTION>
+		<NAME>Vodka Ananas</NAME>
+		<CREDITS>5</CREDITS>
+		<PRICE>5.00</PRICE>
+	</OPTION>
+</CATALOG>
