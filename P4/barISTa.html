@@ -11,19 +11,29 @@
 		<script src="orders.js"></script>
 		<script src="prizes.js"></script>
 		<script src="jukebox.js"></script>
+		<script src="clock.js"></script>
 
 	</head>
 	<body>
 
+
+
 		<table align=center>
+			<tr > 
+				<span id="clock" class="clock" style="width: 150px; height: 75px;background: rgba(000, 117, 179, 1); border: 15px solid rgba(000, 117, 179, 1);
+														border-radius: 15px; text-align: center;"><b>
+									00:00:00</b> 
+				</span>
+			</tr>
+
 			<tr height="870px">
 				<td width="500px">
 					<span id="leftSide">
 					     <span id="homeButtons">
 							<!-- Insert Home buttons here -->
-							<div id="orderButton" class="button" onclick="pressOrder()" style="width: 120px; height: 60px;"><b>Menu</b></div><br>
-							<div id="personalizeDrinkButton" class="button" onclick="pressPersonalize('database/Ingredientes.xml')" style="width: 120px; height: 60px;"><b>Personalizar<br>Bebida</b></div><br>
-							<div id="prizesButton" class="button" onclick="pressPrizes()" style="width: 120px; height: 60px;"><b>Roda da<br>Sorte</b></div>
+							<div id="orderButton" class="button" onclick="pressOrder()" style="width: 150px; height: 100px;"><b>Menu</b></div><br>
+							<div id="personalizeDrinkButton" class="button" onclick="pressPersonalize('database/Ingredientes.xml')" style="width: 150px; height: 100px;"><b>Personalizar<br>Bebida</b></div><br>
+							<div id="prizesButton" class="button" onclick="pressPrizes()" style="width: 150px; height: 100px;"><b>Roda da<br>Sorte</b></div>
 						</span>
 					</span>
 				</td>
@@ -203,7 +213,7 @@
 							</div>
 						</span>
 						<span id="prizesMenu" style="display: none;">
-								<div id="bigMenuDiv" class="bigMenu" style="margin:0px; width:550px; height: 800px;">
+								<div id="bigMenuDiv" class="bigMenu" style="margin:0px; width:550px; height: 800px; margin-left:10px; margin-top:10px">
 									<table>
 										<tr height="250">
 											<td style="margin-left:5px; border:10px; padding: 3px;">

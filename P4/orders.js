@@ -121,7 +121,7 @@ function updatePendingOrdersPersonalize(){
 		var amount = pendingOrderPersonalize[i].amount;
 		table += "<tr><td width=\"100\">" + name +
 			"</td><td>" + "x" + amount +
-			"</td><td style=\"text-align:right\">" + (price*amount).toFixed(2) + "&euro;" +
+			"</td><td style=\"text-align:right\">" + (price*amount) + "&euro;" +
 			"</td></tr>";
 	}
 	document.getElementById("pendingOrderTablePersonalize").innerHTML = table;
@@ -137,12 +137,12 @@ function confirmPendingOrdersPersonalize(){
 	if(pendingOrderPersonalize.length > 0){
 		//Update the current credits
 		var i;
-		var creditos;
-		var preco;
+		var creditos = 0;
+		var preco = 0;
 		for (i=0; i< pendingOrderPersonalize.length; i++){
 			
 			preco += pendingOrderPersonalize[i].price;
-			creditos += (pendingOrderPersonalize[i].price * pendingOrderPersonalize[i].amount).toFixed(2);
+			creditos += (pendingOrderPersonalize[i].price * pendingOrderPersonalize[i].amount);
 		}
 		currentCredits +=creditos;
 		var newOrder = {
