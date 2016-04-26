@@ -155,6 +155,7 @@ function confirmPendingOrdersPersonalize(){
 		//Put the new order on the bill
 		placedOrders = placedOrders.concat(newOrder);
 		pendingOrderPersonalize = [];
+		updatePendingOrdersPersonalize();
 		backToMainMenu();
 		closePersonalize();
 		updateBill();
