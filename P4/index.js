@@ -107,3 +107,8 @@ function backToMainMenu(){
 function pressPay(){
 	window.location.href = "index.html"; 
 }
+
+function onPageLoad(){
+	Horario();
+	loadPrizes();
+}

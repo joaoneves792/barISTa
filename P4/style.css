@@ -178,6 +178,7 @@ table.choiceMenu tr{
 #pendingOrderTablePersonalize{
 	position: absolute;
 	top: 115px;
+	width: 190px;
 }
 #pendingOrderTablePersonalize tr{	height: 10px; }
 #pendingOrderTablePersonalize tr:nth-child(even) {background-color: #0075b3}

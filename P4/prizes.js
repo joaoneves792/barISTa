@@ -7,8 +7,10 @@ var pic2 = 1;
 var pic3 = 2;
 var spinning = 0;
 var timer = null;
+var images = [];
 
-window.onload = function (){
+function loadPrizes(){
+//window.onload = function (){
  
 	imgSlide = document.getElementById('img');
 	img2Slide = document.getElementById('img2');

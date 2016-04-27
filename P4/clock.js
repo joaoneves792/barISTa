@@ -16,10 +16,9 @@
       Segundos = "0"+Segundos; 
     } 
     //em.innerHTML = Horas + ":" + Minutos + ":" + Segundos; 
-    } 
-	horasatuais = Horas + ":" +  + Minutos + ":" + Segundos; 
+	horasatuais = Horas + " : " + Minutos; //": + Segundos; 
 	document.getElementById("clock").innerHTML = horasatuais;
-    window.setInterval(Horario(),1000);
+    setTimeout(Horario,1);
     //document.write("<br>");
 	
 	var now = new Date();
@@ -47,3 +46,4 @@
 	var data =(dia + "/" + mes + "/" + ano);
 
 	//document.write(data);
+    } 

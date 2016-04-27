@@ -6,17 +6,17 @@
 
 		<!-- Load external files -->
 		<link rel="stylesheet" href="style.css">
-		<script src="index.js"></script>
 		<script src="tables.js"></script>
 		<script src="orders.js"></script>
 		<script src="prizes.js"></script>
 		<script src="jukebox.js"></script>
 		<script src="clock.js"></script>
+		<script src="index.js"></script>
 
 	</head>
-	<body>
+	<body onload="onPageLoad()">
 
-
+		
 
 		<table align=center>
 			<tr > 
@@ -46,7 +46,7 @@
 										<td width="420px">
 												<!-- Insert Search Box here -->
 											<div class="button" onclick="pressBack()" style="width: 60px; position: absolute; left: 25px; top: 0px;"><b>Voltar</b></div><br><br>
-											<input type="text" name="menuSearch" style="position: relative; left: 5px; width:440px;" value="Procurar"><br>
+											<input type="text" name="menuSearch" style="position: relative; left: 5px; width:570px;" value="Procurar"><br>
 											<span id="mainMenu">
 												<table align=left>
 													<!-- Insert order menu buttons here -->
