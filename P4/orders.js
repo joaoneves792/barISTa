@@ -40,8 +40,6 @@ function removePendingOrder(orderName){
 }
 
 
-
-
 function updatePendingOrders(){
 	var i;
 	var table="<tr><td class=\"name\"></td><td></td><td class=\"price\"></td></tr>";
@@ -143,12 +141,12 @@ function confirmPendingOrdersPersonalize(){
 		var preco = 0;
 		var ingredientes = [];
 		for (i=0; i< pendingOrderPersonalize.length; i++){
-			ingredientes += "/" + pendingOrderPersonalize[i].name;
-			preco += pendingOrderPersonalize[i].price;
+			ingredientes += pendingOrderPersonalize[i].name + "/" + pendingOrderPersonalize[i].amount + ";";
+			preco += pendingOrderPersonalize[i].price * pendingOrderPersonalize[i].amount;
 			creditos += (pendingOrderPersonalize[i].price * pendingOrderPersonalize[i].amount);
 		}
+		//ingredientes -= ";";
 		currentCredits +=creditos;
-		ingredientes += ";";
 		var newOrder = {
 			name:"Bebida Personalizada",
 			credits:creditos,
@@ -169,10 +167,52 @@ function confirmPendingOrdersPersonalize(){
 		placedOrders = placedOrders.concat(newOrder);
 		pendingOrderPersonalize = [];
 		updatePendingOrdersPersonalize();
+		updatePersonalizedDrinks()
 		backToMainMenu();
 		closePersonalize();
 		updateBill();
 	}
+}
+
+function updatePersonalizedDrinks(){
+	var i;
+	var newDrink = 0;
+	var table="<tr><td class=\"name\"></td><td></td><td class=\"price\"></td></tr>";
+	for (i = 0; i <personalizedDrinks.length; i++) {
+		var info = personalizedDrinks[i].name;
+		var div1 = info.split(";"); 
+		var price = personalizedDrinks[i].price;
+		var amount = personalizedDrinks[i].amount;
+		for (e = 0; e <div1.length-1; e++) {
+			if (newDrink == 0){
+				table += "<tr bgcolor=\"#0075b3\"><td width=\"100\">";
+			}else{
+				table += "<tr><td width=\"100\">";				
+			}
+			var ingrediente = div1[e];
+			var div2 = ingrediente.split("/");
+			for (a = 0; a <div2.length; a++) {
+				var name = div2[a];
+				var quantidade =div2[a + 1];
+				a++;
+					table +=  	name + 
+								"</td><td>" + "x" + quantidade +
+								"</td>";
+				
+				
+			}
+			table += "<br>";
+		}
+		table += "<td style=\"text-align:right\"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + (price*amount) + "&euro;" +
+			"</td></tr>";
+		if (newDrink == 0){
+				newDrink = 1;
+			}else{
+				newDrink = 0;		
+			}
+	}
+	document.getElementById("OrderTablePersonalize").innerHTML = table;
+	
 }
 
 function updateBill(){
