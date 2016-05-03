@@ -87,12 +87,23 @@ function placePendingOrderPersonalize(orderName, orderCredits, orderPrice){
 			return;
 		}
 	}
-	var newOrder = {
-		name:orderName,
-		credits:orderCredits,
-		price:orderPrice,
-		amount:1
-	};
+	/*if (orderName == "Bebida Personalizada"){
+		var newOrder = {
+			name:orderName,
+			credits:orderCredits,
+			price:orderPrice,
+			amount:1
+		};
+		
+	}else{*/
+		var newOrder = {
+			name:orderName,
+			credits:orderCredits,
+			price:orderPrice,
+			amount:1
+		};
+	//}
+	
 	pendingOrderPersonalize.push(newOrder);
 	updatePendingOrdersPersonalize();
 }
@@ -177,34 +188,38 @@ function confirmPendingOrdersPersonalize(){
 function updatePersonalizedDrinks(){
 	var i;
 	var newDrink = 0;
-	var table="<tr><td class=\"name\"></td><td></td><td class=\"price\"></td></tr>";
+	var table="<tr><td></td><td class=\"name\"></td><td></td><td class=\"price\"></td></tr>";
 	for (i = 0; i <personalizedDrinks.length; i++) {
+		table += "<td> " + (i+1) + "</td>";
 		var info = personalizedDrinks[i].name;
 		var div1 = info.split(";"); 
 		var price = personalizedDrinks[i].price;
 		var amount = personalizedDrinks[i].amount;
 		for (e = 0; e <div1.length-1; e++) {
-			if (newDrink == 0){
-				table += "<tr bgcolor=\"#0075b3\"><td width=\"100\">";
-			}else{
-				table += "<tr><td width=\"100\">";				
-			}
 			var ingrediente = div1[e];
 			var div2 = ingrediente.split("/");
-			for (a = 0; a <div2.length; a++) {
-				var name = div2[a];
-				var quantidade =div2[a + 1];
-				a++;
-					table +=  	name + 
-								"</td><td>" + "x" + quantidade +
-								"</td>";
-				
-				
-			}
-			table += "<br>";
+				if (newDrink == 0){
+					table += "<tr bgcolor=\"#0075b3\"><td width=\"100\">";
+				}else{
+					table += "<tr><td width=\"100\">";				
+				}
+				for (a = 0; a <div2.length; a++) {
+					var name = div2[a];
+					var quantidade =div2[a + 1];
+					a++;
+						table +=  	name + 
+									"</td><td>" + "x" + quantidade +
+									"</td>";
+					
+					
+				}
+				table += "<br>";
+			
 		}
 		table += "<td style=\"text-align:right\"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + (price*amount) + "&euro;" +
-			"</td></tr>";
+			"</td>"+
+			"</td><td>" + "<img src=\"img/plus.png\" width=\"32\" onclick=\"placePendingOrderPersonalize('Bebida Personalizada " + (i+1) + "', " + price*amount + ", " + price + ")\" >" +
+			"</tr>";
 		if (newDrink == 0){
 				newDrink = 1;
 			}else{
