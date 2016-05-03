@@ -1,7 +1,9 @@
 var pendingOrder = [];
 var pendingOrderPersonalize = [];
 var placedOrders = [];
+var personalizedDrinks = [];
 var currentCredits = 0;
+
 
 function placePendingOrder(orderName, orderCredits, orderPrice){
 	var i;
@@ -139,20 +141,31 @@ function confirmPendingOrdersPersonalize(){
 		var i;
 		var creditos = 0;
 		var preco = 0;
+		var ingredientes = [];
 		for (i=0; i< pendingOrderPersonalize.length; i++){
-			
+			ingredientes += "/" + pendingOrderPersonalize[i].name;
 			preco += pendingOrderPersonalize[i].price;
 			creditos += (pendingOrderPersonalize[i].price * pendingOrderPersonalize[i].amount);
 		}
 		currentCredits +=creditos;
+		ingredientes += ";";
 		var newOrder = {
 			name:"Bebida Personalizada",
 			credits:creditos,
 			price:preco,
 			amount:1
 		};
-
+		
+		var newPersonalized = {
+			name:ingredientes,
+			credits:creditos,
+			price:preco,
+			amount:1
+		};
+		
+		
 		//Put the new order on the bill
+		personalizedDrinks = personalizedDrinks.concat(newPersonalized);
 		placedOrders = placedOrders.concat(newOrder);
 		pendingOrderPersonalize = [];
 		updatePendingOrdersPersonalize();
