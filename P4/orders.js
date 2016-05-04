@@ -216,7 +216,7 @@ function updatePersonalizedDrinks(){
 				table += "<br>";
 			
 		}
-		table += "<td style=\"text-align:right\"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + (price*amount) + "&euro;" +
+		table += "<td style=\"text-align:right\">" + (price*amount) + "&euro;" +
 			"</td>"+
 			"</td><td>" + "<img src=\"img/plus.png\" width=\"32\" onclick=\"placePendingOrderPersonalize('Bebida Personalizada " + (i+1) + "', " + price*amount + ", " + price + ")\" >" +
 			"</tr>";
