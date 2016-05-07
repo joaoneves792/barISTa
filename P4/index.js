@@ -51,6 +51,12 @@ function pressOrder(){
 	show("orderMenu");
 }
 
+function pressHelp(){
+	pressBack();
+	currentMainMenuScreen = "help";
+	show("helpScreen");	
+}
+
 function pressPersonalize(xmlDocumentName){
 	//updatePendingOrders();
 	pressBack();
@@ -68,6 +74,8 @@ function pressBack(){
 		closePrize();
 	else if (currentMainMenuScreen == "personalizeMenu")
 		closePersonalize();
+	else if (currentMainMenuScreen == "help")
+		hide("helpScreen");
 }
 
 function closeOrder(){
@@ -111,4 +119,11 @@ function pressPay(){
 function onPageLoad(){
 	Horario();
 	loadPrizes();
+}
+
+function pressCallEmployee(){
+	document.getElementById('callEmployee').style.background = 'rgba(000, 127, 000, 1)';
+	document.getElementById('callEmployee').style.border = '15px solid rgba(000, 127, 000, 1)';
+	document.getElementById('callEmployee').innerHTML = 'Por favor aguarde';
+	
 }

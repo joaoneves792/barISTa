@@ -243,6 +243,31 @@
 									</table>
 								</div>
 						</span>
+						<span id="helpScreen" style="display: none;">
+							<div id="helpDiv" class="bigMenu">
+								<table align=left>
+									<tr>
+										<td width="420px">
+											<div class="button" onclick="pressBack()" style="width: 60px; position: absolute; right: 10px; top: 0px;"><b>Fechar</b></div><br><br>
+										</td>
+									</tr>
+									<tr>
+										<h2>Realizar um Pedido</h2>
+										<p>Para realizar um pedido pressione o butão "Menu" localizado no canto superior esquerdo. De seguida selecione o tipo de bebida/comida que deseja (por exemplo "Cerveja"). De entre as opções que entretanto surgem pode escolher a que deseja carregando no botão com o sinal "+". Uma vez selecionado o seu pedido pode carregar em "Confirmar" para o submeter.<p>
+										<h2>Personalizar bebida</h2>
+										<p>Para personalizar uma bebida pressione o butão "Personalizar Bebida". De seguida pode escolher os ingredientes que pretende carregando no butão "+" situado ao lado de cada ingrediente possivel. Quando tiver adicionado todos os ingredientes que deseja basta carregar no botão "Confirmar" para submeter os seu pedido.<p>
+										<h2>Jogar na Roda da Sorte</h2>
+										<p>Para jogar na Roda da Sorte precisa de ter Créditos. Pode consultar quantos Créditos tem na Conta (canto inferior direito). Para entrar na Roda da Sorte pressione o butão "Roda da Sorte". Para jogar pressione no botão "Rodar", esta acção vai descontar 1 Crédito. Para parar a roda pressione "Parar". Se tiver ganho um Prémio este irá aparecer na sua Conta.</p>
+										<h2>Votar em música</h2>
+										<p>Este bar dispõe de uma playlist cuja ordem pode ser alterada pelos clientes. Para influenciar a escolha da próxima música a passar no bar pode votar. A musica mais votada pelos clientes será a tocada assim que a musica actual termine. Para votar pressione o botão "Votar" localizado no canto superior direito. Pode procurar pela sua preferencia utilizando a caixa de introdução de texto. Para colocar o seu voto pressione o butão "+".</p>
+									</tr>
+									<tr>
+										<div id="callEmployee" class="button" style="width: 93%; position: absolute; bottom: 5px;" onclick="pressCallEmployee()">Chamar Empregado</div>
+									</tr>
+
+								</table>
+							</div>
+						</span>
 				</td>
 				<td width="960px">
 					<span id="rightSide">
@@ -250,6 +275,7 @@
 							<tr height="430px">
 								<td width="960px">
 									<span id="topSide">
+										<div id="helpButton" class="button" onclick="pressHelp()"><b>?</b></div><br>
 										<!-- Insert Jukebox here --> 
 										<div id="jukeboxCollapsed" class="jukebox">
 											<table align=left>
